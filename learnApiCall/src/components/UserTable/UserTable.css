@@ -1,0 +1,60 @@
+/* Container for input fields and button */
+.input-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Basic styling for input fields */
+  input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  /* Styling for add button */
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Table styling */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+  }
+  
+
+  /* Basic styling for pagination controls */
+.pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
